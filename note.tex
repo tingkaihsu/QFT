@@ -229,14 +229,24 @@ Consider the following infinitesimal symmetry transformation,
 \begin{equation}
     \begin{split}
         t\rightarrow t' = t+\epsilon\\
-        q(t)\rightarrow q'(t') = q(t)
+        q(t)\rightarrow q'(t') = q(t+\epsilon)
     \end{split}
 \end{equation}
 where $\epsilon$ is an arbitrary constant. Thus we have,
 \begin{equation}
     \begin{split}
         \delta_{\text{S}}t = \epsilon\\
-        \delta_{\text{S}}q = q'(t')-q(t') = q(t)-q(t+a) = -\dot{q}\epsilon
+        \delta_{\text{S}}q = q'(t')-q(t') = q(t+\epsilon)-q(t+\epsilon) = 0
     \end{split}
 \end{equation}
+Thus the corresponding conserved quantity become,
+\begin{equation}
+    \frac{d}{dt}\left[\left(-\frac{\partial L}{\partial\dot{q}}\dot{q}+L\right)\epsilon\right] = 0
+\end{equation}
+Which is hamiltonian,
+\begin{equation}
+    H = \frac{\partial L}{\partial\dot{q}}\dot{q}-L
+\end{equation}
+
+\section{Noether Theorem in Field Theory}
 \end{document}
