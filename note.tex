@@ -198,4 +198,45 @@ We have the following quantity is conserved,
 \begin{equation}
     \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\delta_{\text{S}}q+\left(-\frac{\partial L}{\partial \dot{q}}\dot{q}+L\right)\delta_{\text{S}}t+K\right) = 0
 \end{equation}
+We call it \textbf{conserved quantity} or \textbf{conserved charge}.
+\subsection{Examples in Classical Mechanics}
+\subsubsection{Space Translation}
+Consider the following infinitesimal symmetry transformation,
+\begin{equation}
+    \begin{split}
+        t\rightarrow t' = t\\
+        q(t)\rightarrow q'(t') = q(t) + \epsilon
+    \end{split}
+\end{equation}
+where $\epsilon$ is an arbitrary constant.
+Thus we have,
+\begin{equation}
+    \begin{split}
+        \delta_{\text{S}}t =0\\
+        \delta_{\text{S}}q = \epsilon
+    \end{split}
+\end{equation}
+The corresponding conserved quantity would be\footnote{$K$ is zero in this case.},
+\begin{equation}
+    \frac{d}{dt}\left(\frac{\partial L}{\partial\dot{q}}\epsilon\right) = 0
+\end{equation}
+It is \textbf{canonical momentum},
+\begin{equation}
+    p\equiv\frac{\partial L}{\partial\dot{q}}
+\end{equation}
+\subsubsection{Time Translation}
+Consider the following infinitesimal symmetry transformation,
+\begin{equation}
+    \begin{split}
+        t\rightarrow t' = t+\epsilon\\
+        q(t)\rightarrow q'(t') = q(t)
+    \end{split}
+\end{equation}
+where $\epsilon$ is an arbitrary constant. Thus we have,
+\begin{equation}
+    \begin{split}
+        \delta_{\text{S}}t = \epsilon\\
+        \delta_{\text{S}}q = q'(t')-q(t') = q(t)-q(t+a) = -\dot{q}\epsilon
+    \end{split}
+\end{equation}
 \end{document}

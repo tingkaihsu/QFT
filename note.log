@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.23)  28 DEC 2023 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.23)  28 DEC 2023 22:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -410,23 +410,23 @@ Overfull \hbox (5.6608pt too wide) in paragraph at lines 160--163
 \OT1/ptm/m/n/12 Adding a term of to-tal deriva-tive for gen-eral con-sid-er-a-tion, and we know it wouldn't
  []
 
-[2] [3] (./note.aux)
+[2] [3] [4] [5] (./note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: DF0084764D905A1FB58C35C28D279934;405.
+(rerunfilecheck)             Checksum: 8A59C889A39E2844407C45255485A952;931.
  ) 
 Here is how much of TeX's memory you used:
- 13129 strings out of 480171
- 202620 string characters out of 5894488
+ 13144 strings out of 480171
+ 202831 string characters out of 5894488
  679385 words of memory out of 5000000
- 30811 multiletter control sequences out of 15000+600000
+ 30814 multiletter control sequences out of 15000+600000
  505439 words of font info for 117 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 69i,18n,77p,386b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on note.pdf (3 pages, 121092 bytes).
+ 69i,18n,77p,386b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on note.pdf (5 pages, 135064 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
