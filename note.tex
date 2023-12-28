@@ -186,7 +186,16 @@ Let turn $\mathcal{Q}\text{ and }\mathbb{L}$ back to original lagrangian and pos
 \[\frac{\partial\mathbb{L}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial\mathbb{L}}{\partial d_{\tau}t}\delta_{\text{S}}t = \frac{\partial L\frac{dt}{d\tau}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial L\frac{dt}{d\tau}}{\partial d_{\tau}t}\delta_{\text{S}}t\]
 \[ = \frac{\partial L}{\partial d_{\tau}\mathcal{Q}}\frac{dt}{d\tau}\delta_{\text{S}}\mathcal{Q}+\left(\frac{\partial L}{\partial d_{\tau}t}\frac{dt}{d\tau}+L\right)\delta_{\text{S}}t\]
 \[ = \frac{\partial L}{\partial \dot{q}}\frac{\partial\dot{q}}{\partial d_{\tau}\mathcal{Q}}\frac{dt}{d\tau}\delta_{\text{S}}q+\left(\frac{\partial L\left[q,\frac{dq}{d\tau}d_{\tau}t^{-1}\right]}{\partial d_{\tau}t}\frac{dt}{d\tau}+L\right)\delta_{\text{S}}t\]
-\[= \frac{\partial L}{\partial \dot{q}}\frac{\partial\dot{q}}{\partial d_{\tau}\mathcal{Q}}\frac{dt}{d\tau}\delta_{\text{S}}q+\left(\frac{\partial L\left[q,\frac{dq}{d\tau}d_{\tau}t^{-1}\right]}{\partial \dot{q}}\frac{\partial\dot{q}}{\partial d_{\tau}t}\frac{dt}{d\tau}+L\right)\delta_{\text{S}}t\]
-Consider,
-\[\frac{\partial\dot{q}}{\partial d_{\tau}t}\frac{dt}{d\tau}=\frac{\partial\left(d_{\tau}q\cdot(d_{\tau}t)^{-1}\right)}{\partial d_{\tau}t}\]
+\begin{equation}
+    = \frac{\partial L}{\partial \dot{q}}\frac{\partial\dot{q}}{\partial d_{\tau}\mathcal{Q}}\frac{dt}{d\tau}\delta_{\text{S}}q+\left(\frac{\partial L\left[q,\frac{dq}{d\tau}d_{\tau}t^{-1}\right]}{\partial \dot{q}}\frac{\partial\dot{q}}{\partial d_{\tau}t}\frac{dt}{d\tau}+L\right)\delta_{\text{S}}t
+\end{equation}\label{1.13}
+with $d_{\tau}q\equiv \frac{dq}{d\tau}$. Consider,
+\[\frac{\partial\dot{q}}{\partial d_{\tau}t}\frac{dt}{d\tau}=\frac{\partial\left(d_{\tau}q\cdot(d_{\tau}t)^{-1}\right)}{\partial d_{\tau}t}d_{\tau}t = -\frac{d_{\tau}q}{(d_{\tau}t)^2}d_{\tau}t = -\frac{d_{\tau}q}{d_{\tau}t} = \dot{q}\]
+\[\frac{\partial \dot{q}}{\partial d_{\tau}\mathcal{Q}}\frac{dt}{d\tau} = 1\]
+Therefore eq(\hyperref[1.13]{1.13}) would become,
+\[ = \frac{\partial L}{\partial \dot{q}}\delta_{\text{S}}q+\left(-\frac{\partial L}{\partial \dot{q}}\dot{q}+L\right)\delta_{\text{S}}t\]
+We have the following quantity is conserved,
+\begin{equation}
+    \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\delta_{\text{S}}q+\left(-\frac{\partial L}{\partial \dot{q}}\dot{q}+L\right)\delta_{\text{S}}t+K\right) = 0
+\end{equation}
 \end{document}
