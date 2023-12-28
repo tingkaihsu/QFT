@@ -177,5 +177,13 @@ The variation of lagrangian would become,
 \end{equation}
 \[ = \frac{\partial\mathbb{L}}{\partial\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial\mathbb{L}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}d_{\tau}\mathcal{Q}+\frac{\partial\mathbb{L}}{\partial t}\delta_{\text{S}}t+\frac{\partial\mathbb{L}}{\partial d_{\tau}t}\delta_{\text{S}}d_{\tau}t\]
 Plug in the equation of motion, we then got,
-\[\]
+\[\delta\mathbb{L} = \frac{d}{d\tau}\left(\frac{\partial\mathbb{L}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial\mathbb{L}}{\partial d_{\tau}t}\delta_{\text{S}}t\right)\]
+To conclude, the variation of action would become,
+\begin{equation}
+    \delta S = \int{dt\,\frac{d}{d\tau}\left(\frac{\partial\mathbb{L}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial\mathbb{L}}{\partial d_{\tau}t}\delta_{\text{S}}t+K\right)} = 0
+\end{equation}
+Let turn $\mathcal{Q}\text{ and }\mathbb{L}$ back to original lagrangian and position,
+\[\frac{\partial\mathbb{L}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial\mathbb{L}}{\partial d_{\tau}t}\delta_{\text{S}}t = \frac{\partial L\frac{dt}{d\tau}}{\partial d_{\tau}\mathcal{Q}}\delta_{\text{S}}\mathcal{Q}+\frac{\partial L\frac{dt}{d\tau}}{\partial d_{\tau}t}\delta_{\text{S}}t\]
+\[ = \frac{\partial L}{\partial d_{\tau}\mathcal{Q}}\frac{dt}{d\tau}\delta_{\text{S}}\mathcal{Q}+\left(\frac{\partial L}{\partial d_{\tau}t}\frac{dt}{d\tau}+L\right)\delta_{\text{S}}t\]
+\[ = \]
 \end{document}
