@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1703777380 "/home/htk/Desktop/QFT/note.tex" "note.pdf" "note" 1703777380
+["pdflatex"] 1704431748 "/home/htk/Desktop/QFT/note.tex" "note.pdf" "note" 1704431748
   "/etc/texmf/web2c/texmf.cnf" 1701076711 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/htk/Desktop/QFT/note.tex" 1703777380 14083 576972263af999c23e43999e1fbc26cd ""
+  "/home/htk/Desktop/QFT/note.tex" 1704431748 14197 04b8b92d4f5c84d5b2f04c2b30a5a01f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -157,10 +157,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1703296699 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1703296703 1435895 0d8795c082b027882f379020fe22f298 ""
-  "note.aux" 1703777380 1709 5f11352bd1ee67edce4084649b2f8e8d "pdflatex"
-  "note.out" 1703777380 1141 4ca64aa7d95d13b74008ccceb3b25f06 "pdflatex"
-  "note.tex" 1703777380 14083 576972263af999c23e43999e1fbc26cd ""
-  "note.toc" 1703777380 549 8d8fc8bd873b938621433a022a8461e5 "pdflatex"
+  "note.aux" 1704431748 1709 5f11352bd1ee67edce4084649b2f8e8d "pdflatex"
+  "note.out" 1704431748 1141 4ca64aa7d95d13b74008ccceb3b25f06 "pdflatex"
+  "note.tex" 1704431748 14197 04b8b92d4f5c84d5b2f04c2b30a5a01f ""
+  "note.toc" 1704431748 549 8d8fc8bd873b938621433a022a8461e5 "pdflatex"
   (generated)
   "note.aux"
   "note.log"
